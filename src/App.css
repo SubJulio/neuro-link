@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.high-stress-mode .complex-element {
+  display: none !important;
+}
+
+.high-stress-mode * {
+  animation: none !important;
+  transition: none !important;
+}
